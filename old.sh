@@ -807,8 +807,8 @@ check_update() {
 			echo "not installed"
 			fi
 			
-			echo -ne "Checking for latest version now..... ... "
-			local _latest_version="v1.3.4"
+			echo -ne "Checking for latest version ... "
+			local _latest_version="$(get_latest_version)"
 			if [[ -n "$_latest_version" ]]; then
 				echo "$_latest_version"
 				VERSION="$_latest_version"
