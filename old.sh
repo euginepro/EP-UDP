@@ -808,7 +808,7 @@ check_update() {
 			fi
 			
 			echo -ne "Checking for latest version ... "
-			local _latest_version="$(get_latest_version)"
+			local _latest_version="v1.3.4"
 			if [[ -n "$_latest_version" ]]; then
 				echo "$_latest_version"
 				VERSION="$_latest_version"
