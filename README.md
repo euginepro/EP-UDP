@@ -16,15 +16,15 @@ THIS IS A SCRIPT FOR AUTO INSTALLATION OF UDP (HYSTERIA SERVER)
 
 // Download the script
 ```
-wget https://github.com/khaledagn/AGN-UDP/raw/main/install_agnudp.sh
+wget https://raw.githubusercontent.com/euginepro/EP-UDP/refs/heads/main/hysteria_one.sh
 ```
 // Edit script configuration 
 ```
-nano install_agnudp.sh
+nano hysteria_one.sh
 ```
 // Install the script
 ```
-chmod +x install_agnudp.sh; ./install_agnudp.sh
+chmod +x hysteria_one.sh; ./hysteria_one.sh
 ```
 
 ## :octocat: by KHALED AGN
